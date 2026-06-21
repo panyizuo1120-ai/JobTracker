@@ -3,8 +3,11 @@ def add_application(applications):
     position = input("Position: ")
 
     applications.append({
-        "company": company,
-        "position": position
-    })
+    "company": company,
+    "position": position
+})
 
+with open("applications.json", "w") as file:
+    import json
+    json.dump(applications, file, indent=4)
     print("Application added!")

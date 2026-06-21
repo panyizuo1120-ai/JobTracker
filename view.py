@@ -1,4 +1,5 @@
 def view_applications(applications):
+    
     if len(applications) == 0:
         print("No applications found.")
         return

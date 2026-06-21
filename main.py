@@ -1,7 +1,21 @@
+import json
 from add import add_application
 from view import view_applications
 
-applications = []
+def save_applications(applications):
+    with open("applications.json", "w") as file:
+        json.dump(applications, file, indent=4)
+
+
+
+try:
+    with open("applications.json", "r") as file:
+        applications = json.load(file)
+except:
+    applications = []
+
+
+    
 
 while True:
 
