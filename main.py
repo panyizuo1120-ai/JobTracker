@@ -23,6 +23,7 @@ while True:
         add_application(applications)
 
     elif choice == "2":
+        print("Test")
         view_applications(applications)
 
     elif choice == "3":
