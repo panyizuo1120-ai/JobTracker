@@ -53,7 +53,7 @@ Saved in JSON format:
 ```json
 [
     {
-        "company": "MongoDB",
+        "company": "Company Name",
         "position": "Software Engineer Intern"
     }
 ]
