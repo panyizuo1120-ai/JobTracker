@@ -15,11 +15,7 @@ except:
     applications = []
 
 
-    
-
-while True:
-
-    print("""
+print("""
 ================================
       JOB TRACKER SYSTEM
 ================================
@@ -28,6 +24,12 @@ while True:
 2. View Applications
 3. Exit
 
+================================
+""")    
+
+while True:
+
+    print("""
 ================================
 """)
 
