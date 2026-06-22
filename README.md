@@ -44,7 +44,7 @@ python main.py
 Add a new application:
 
 ```text
-Company: MongoDB
+Company: Company_Name
 Position: Software Engineer Intern
 ```
 
